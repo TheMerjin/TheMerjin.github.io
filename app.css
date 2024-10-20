@@ -6,6 +6,45 @@ body {
   color: #333;
 }
 
+* {
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+
+nav {
+  background-color: #4CAF50; /* Navbar background color */
+  padding: 10px 0; /* Padding */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  text-align: center; /* Center items */
+}
+
+nav ul li {
+  display: inline; /* Display items inline */
+  margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+  padding: 10px 15px; /* Add some padding for a button effect */
+  transition: background 0.3s; /* Smooth transition */
+}
+
+nav ul li a:hover {
+  background-color: #388E3C; /* Darker background on hover */
+  border-radius: 5px; /* Rounded corners */
+}
+
 header {
   background: #4CAF50;
   color: white;
@@ -37,30 +76,4 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
-}
-
-nav {
-  background-color: #4CAF50; /* Navbar background color */
-  padding: 10px 0; /* Padding */
-}
-
-nav ul {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  text-align: center; /* Center items */
-}
-
-nav ul li {
-  display: inline; /* Display items inline */
-  margin: 0 15px; /* Space between items */
-}
-
-nav ul li a {
-  color: white; /* Text color */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Bold text */
-}
-
-nav ul li a:hover {
-  text-decoration: underline; /* Underline on hover */
 }
