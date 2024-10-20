@@ -38,3 +38,29 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+nav {
+  background-color: #4CAF50; /* Navbar background color */
+  padding: 10px 0; /* Padding */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  text-align: center; /* Center items */
+}
+
+nav ul li {
+  display: inline; /* Display items inline */
+  margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
